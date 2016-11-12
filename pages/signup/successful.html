@@ -1,0 +1,49 @@
+<html>
+<head>
+
+    <!--Importing fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+    <!--Importing materialize.css style files-->
+    <link type="text/css" rel="stylesheet" href="../../css/materialize.min.css"  media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: Roboto-Light;
+            src: url(../../font/roboto/Roboto-Light.woff);
+        }
+    </style>
+
+</head>
+<body bgcolor="white">
+    <div class="container">
+
+                <div class="row">
+                    <br /><br /><br /><br /><br /><br /><br />
+                    <div class="col s12" >
+                        <h4  style="text-align: center; font-family: Roboto-Light;">Registered successfully!</h4>
+                    </div>
+
+
+
+                    <br />
+                    <a style="display: block; margin-left: auto; margin-right: auto; width: 10em;" href="../login.php" target="_parent" class="waves-effect waves-light btn-large indigo accent-2 hide-on-small-only">
+                        <i class="material-icons left">perm_identity</i>
+                        Login
+                    </a>
+                </div>
+
+    </div>
+    <script>
+        window.onload =function myadjust(){
+            parent.document.getElementById("register_form").style.height = "30em";
+
+        }
+    </script>
+</body>
+
+
+</html>

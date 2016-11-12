@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>SKSC LMS</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="SKSC is a Learning Management Hub for UCD (University College Dublin)">
+        <meta name="keywords" content="SKSC, LMS, Tutorials, HTML, Learning Management, Learning Hub, ">
+        <meta name="author" content="SKSC Team">
+    <!--Favicon-->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!--Importing fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+    <!--Importing materialize.css style files-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="all">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--footer css-->
+        <link type="text/css" rel="stylesheet" href="css/footer.css">
+
+    <!--CSS IMPORT-->
+        <link type="text/css" rel="stylesheet" media="all" href="css/style_main.css">
+        <link type="text/css" rel="stylesheet" media="all" href="css/style_sub1.css">
+
+      <style>
+
+          .navbarlogo {
+              height: 135px;
+              transition: height .35s;
+          }
+
+
+
+          .navbarlogo.second-state{
+              height: 65px;
+          }
+
+          #navbarlogo1 {
+              height: 135px;
+              transition: height .35s;
+          }
+
+
+
+          #navbarlogo1.second-state{
+              height: 65px;
+          }
+
+      </style>
+  </head>
+
+
+  <body >
+
+  <div class="grey darken-3" style="position: absolute; width: 100%; height: 135px;">
+      <!--This div will cover the slidshow and very top of the body-->
+  </div>
+
+    <!--_______________________________________BACK TO TOP BUTTON_______________________________________-->
+        <div id="backtotop"></div>
+        <a href="#backtotop" class="top hide-on-med-and-down">
+            <img style="height: 50px; width: 50px;" src="images/backtotop.png" alt="back to top button">
+        </a>
+    <!--_______________________________________END OF BACK TO TOP BUTTON_______________________________________-->
+
+
+    <!--_______________________________________NAV BAR_______________________________________-->
+
+
+
+    <div class="navbar-fixed">
+
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a class="grey-text text-darken-3" href="pages/courses.html">Courses</a></li>
+            <li><a  class="grey-text text-darken-3" href="pages/hallallocations.html">Hall Allocations</a></li>
+        </ul>
+
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a  class="grey-text text-darken-3" href="pages/login/redirect.php">My Account</a></li>
+            <li><a class="grey-text text-darken-3" href="pages/signup.html">Sign-Up</a></li>
+        </ul>
+
+        <ul id="dropdown3" class="dropdown-content">
+            <li><a  class="grey-text text-darken-3" href="pages/events.html">Events</a></li>
+            <li><a class="grey-text text-darken-3" href="pages/gallery.html">Gallery</a></li>
+        </ul>
+
+
+
+        <nav class="grey darken-3 navbaropacity navbarlogo"  style="font-family: Raleway;">
+            <div class="nav-wrapper">
+                <a class="brand-logo center">SKSC</a>
+                <img class="responsive-img  hide-on-med-and-down" id="navbarlogo1" src="images/LogoLMS.png" style="margin-left: 1em;" alt="Logo">
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li style="background-color: dimgrey;"><a href="index.html">Home</a></li>
+                    <li><a href="pages/tutorials.php">Tutorials</a></li>
+                    <!-- Drop-down Trigger -->
+                    <li><a class="dropdown-button" data-activates="dropdown1">Courses<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button" data-activates="dropdown3">Events<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button" data-activates="dropdown2">Members<i class="material-icons right">arrow_drop_down</i></a></li>
+
+                </ul>
+
+            </div>
+
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/tutorials.php">Tutorials</a></li>
+                    <li class="divider"></li>
+                    <li><a href="pages/courses.html">Courses</a></li>
+                    <li><a href="pages/hallallocations.html">Hall Allocations</a></li>
+                    <li class="divider"></li>
+                    <li><a href="pages/events.html">Events</a></li>
+                    <li><a href="pages/gallery.html">Gallary</a></li>
+                    <li class="divider"></li>
+                    <li><a href="pages/login/redirect.php">My Account</a></li>
+                    <li><a href="pages/signup.html">Sign-Up</a></li>
+                </ul>
+
+        </nav>
+    </div>
+    <!--_______________________________________END OF NAV BAR_______________________________________-->
+
+    <!--_______________________________________CONTENT_______________________________________-->
+
+    <!--SLIDE SHOW OF THE PAGE-->
+    <pre>
+    </pre>
+
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="pages/home/slide1.jpg" alt="slide1">
+                    <div class="caption center-align">
+                        <h3>SKSC</h3>
+                        <h5 class="light grey-text text-lighten-3">The Learning Management System</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="pages/home/slide2.jpg" alt="slide2">
+                    <div class="caption left-align">
+                        <h3>Learn Online</h3>
+                        <h5 class="light grey-text text-lighten-3">Watch Lots of Tutorials Online</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="pages/home/slide3.jpg" alt="slide3">
+                    <div class="caption right-align">
+                        <h3>All in One</h3>
+                        <h5 class="light grey-text text-lighten-3">Interactive, Educational things in One Place</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="pages/home/slide4.jpg" alt="slide4">
+                    <div class="caption center-align">
+                        <h3>For UCD Students</h3>
+                        <h5 class="light grey-text text-lighten-3">Our Mission is, to Provide the Best Learning Experience</h5>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    <!--END OF THE SLIDE SHOW OF THE PAGE-->
+
+    <!--BEGINNING TEXT OF THE PAGE-->
+     <div class="grey lighten-3 flow-text" style="margin-top: -3em; padding-top: 2em;">
+        <div class="container ">
+            <h3 style="text-align: center;  font-size: 150%;">The SKSC Learning Management System</h3>
+            <p style="text-align:center; font-size: 90%;">
+                This is the "Blackboard" of UCD.<br />
+                For CS & MIS students in the University College of Dublin.<br />
+                This site provide Tutorials and Lecture Presentations and other services.<br />
+                World-Class Education for students, anywhere.
+            </p>
+            <a style="display: block; margin-left: auto; margin-right: auto; width: 8em;" href="pages/login/redirect.php" class="waves-effect waves-light btn-large indigo accent-2 hide-on-small-only">
+                <i class="material-icons left">perm_identity</i>
+                Login
+            </a>
+            <br />
+            <br />
+        </div>
+     </div>
+
+    <!--1st intro-->
+
+      <div style="width:100%;  background-color: #34CC99; overflow:hidden;">
+          <div class="container center-align">
+              <img style="margin-bottom: -.5em;" class="responsive-img animateblock rightanimimg" src="pages/home/ImageLMSHomePage1.jpg" alt="explain image 1">
+          </div>
+      </div>
+
+      <div class="container flow-text" style="height: 12em;">
+            <p class="animateblock leftanimtxt" style="font-size: 140%; font-weight: 300;">FOR EVERY DEVICE..!</p>
+            <p class="animateblock btmanimtxt" style="font-size: 80%;">Optimised for All Screen <br />
+                  Sizes. Take Your Reading <br />
+                  to the Next Level.<br />
+                  Get Right to Work and Play.
+            </p>
+      </div>
+
+
+      <!--2nd intro-->
+
+      <div style="width:100%;  background-color: #5996CD; overflow:hidden;">
+          <div class="container center-align">
+              <img style="margin-bottom: -.5em;" class="responsive-img animateblock leftanimimg" src="pages/home/ImageLMSHomePage2.jpg" alt="explain image 2">
+          </div>
+      </div>
+
+
+      <div class="container flow-text" style="height: 15em;">
+        <div class="row">
+            <div class="col m5 offset-m7">
+              <p class="animateblock rightanimtxt" style="font-size: 140%; font-weight: 300;">TUTORIALS..!</p>
+              <p class="animateblock btmanimtxt" style="font-size: 80%;">Filled With a Rich Content <br />
+                  of Tutorials for Your <br />
+                  Knowledge. Constantly <br />
+                  Uploaded Tutorials by Professional <br />
+                  Lectures. Everything at Your <br />
+                  Fingertip.
+              </p>
+            </div>
+        </div>
+      </div>
+
+
+      <!--3rd intro-->
+
+      <div style="width:100%;  background-color: #FFCA12; overflow:hidden;">
+          <div class="container center-align">
+              <img style="margin-bottom: -.5em;" class="responsive-img animateblock rightanimimg" src="pages/home/ImageLMSHomePage3.jpg" alt="explain image 3">
+          </div>
+      </div>
+
+      <div class="container flow-text" style="height: 15em;">
+          <p class="animateblock leftanimtxt" style="font-size: 140%; font-weight: 300;">ON THE GO..!</p>
+          <p  class="animateblock btmanimtxt" style="font-size: 80%;">Be in Touch on the Go.<br />
+                  User Friendly Design Ensures<br />
+                  User Satisfaction.<br />
+                  With Our New and Improved <br />
+                  Navigation, Everything is <br />
+                  Just a Click Away.
+          </p>
+
+      </div>
+
+
+      <!--4th intro-->
+
+      <div style="width:100%;  background-color: #64CACF; overflow:hidden;">
+          <div class="container center-align">
+              <img style="margin-bottom: -.5em;" class="responsive-img animateblock leftanimimg" src="pages/home/ImageLMSHomePage4.jpg" alt="explain image 4">
+          </div>
+      </div>
+
+      <div class="container flow-text" style="height: 15.5em;">
+          <div class="row">
+              <div class="col m5 offset-m7">
+                  <p class="animateblock rightanimtxt" style="font-size: 140%; font-weight: 300;">EVENTS..!</p>
+                  <p class="animateblock btmanimtxt" style="font-size: 80%;">What Plans Have You Got Today?<br />
+                      Events Show Up Remarkably Well<br />
+                      Prior to Joining.<br />
+                      We Update Useful Information<br />
+                      for Student Societies,<br />
+                      Clubs and Student Activities.
+                  </p>
+              </div>
+          </div>
+      </div>
+
+      <!--5th intro-->
+
+      <div style="width:100%;  background-color: #F3C796; overflow:hidden;">
+          <div class="container center">
+              <img style="margin-bottom: -.5em;" class="responsive-img animateblock rightanimimg" src="pages/home/ImageLMSHomePage5.jpg" alt="explain image 5">
+          </div>
+      </div>
+
+      <div class="container flow-text" style="height: 12em;">
+          <p class="animateblock leftanimtxt" style="font-size: 140%; font-weight: 300;">STAY CONNECTED..!</p>
+          <p class="animateblock btmanimtxt" style="font-size: 80%;">Keep Connected With Your Students<br />
+                  by Sending Invitations to<br />
+                  Them to Participate for<br />
+                  Events.
+          </p>
+      </div>
+
+    <!--________________________________________CARDS____________________________________________-->
+
+        <div class="grey lighten-2">
+            <br />
+
+            <div class="container">
+                <div class="row">
+                <div class="animateblock">
+                    <p style="margin: 0; padding: 0;" class="flow-text">About UCD<i class="material-icons" style="margin: 0; padding: 0;"><a style="margin: 0; padding: 0;" href="pages/home/readmore.html">call_made</a></i></p>
+
+        <!--________________CARD ROW 1___________________-->
+        <!--________CARD 1_________-->
+                    <div class="col s12 l4 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="pages/home/card1.jpg" alt="card 1" />
+                                <span class="card-title">HeyStaks</span>
+                            </div>
+                            <div style="height: 15em;" class="card-content">
+                                <p>Award-winning UCD spin-out company HeyStaks Technologies has raised €1.5 million as
+                                    part of a strategic partnership with telecoms operator Digicel.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="pages/home/readmore.html#card1">Read more..</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+        <!--________CARD 2_________-->
+                    <div class="col s12 l4 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="pages/home/card2.jpg" alt="card 2" />
+                                <span class="card-title">K Supercomputer</span>
+                            </div>
+                            <div style="height: 15em;" class="card-content">
+                                <p>Software developed by Prof.Toyotaro Suzumura, a researcher in the UCD CS and Informatics,
+                                    has returned the K supercomputer to the top spot in the Graph 500 global rankings.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="pages/home/readmore.html#card2">Read more..</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+        <!--________CARD 3_________-->
+
+
+                    <div class="col s12 l4 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="pages/home/card3.jpg" alt="card 3" />
+                                <span class="card-title">150 New Jobs in Dublin</span>
+                            </div>
+                            <div style="height: 15em;" class="card-content">
+                                <p>Dept. of Jobs through IDA Ireland, SAS, the global leader in business analytics,
+                                    is expanding its operations by establishing a new Inside Sales and Customer Contact Centre.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="pages/home/readmore.html#card3">Read more..</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+    <!--________________CARD ROW 2___________________-->
+
+    <!--________CARD 4_________-->
+
+                        <div class="col s12 l4 m6">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="pages/home/card4.jpg" alt="card 4" />
+                                    <span class="card-title">Horizon 2020</span>
+                                </div>
+                                <div style="height: 15em;" class="card-content">
+                                    <p>A Horizon 2020 grant of €1.2 million has been awarded to Prof. Mark O'Malley from
+                                        the UCD for his project Realising Value from Electricity Markets.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="pages/home/readmore.html#card4">Read more..</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+    <!--________CARD 5_________-->
+                        <div class="col s12 l4 m6">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="pages/home/card5.jpg" alt="card 5" />
+                                    <span class="card-title">Future stars of UCD</span>
+                                </div>
+                                <div style="height: 15em;" class="card-content">
+                                    <p>Samir Belhout almost provided a stunning last-minute come back as UCD fell just
+                                        short against a Liverpool XI featuring some of the Merseyside club's best young footballers.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="pages/home/readmore.html#card5">Read more..</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+    <!--________CARD 6_________-->
+                        <div class="col s12 l4 m6">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="pages/home/card6.jpg"  alt="card 6"/>
+                                    <span class="card-title">Andy Murray!</span>
+                                </div>
+                                <div style="height: 15em;" class="card-content">
+                                    <p>Fantastic news about Andy Murray! In case you hadn’t heard, the boy from Dunblane became
+                                        the first British player to win Wimbledon since 1977, when Virginia Wade took the title.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="pages/home/readmore.html#card6">Read more..</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+    <!--____________________________________END OF CARDS_________________________________________-->
+
+
+
+
+
+        <div class="flow-text  hide-on-small-only">
+                <br />
+                <br />
+
+                <a style="display: block; margin-left: auto; margin-right: auto; width: 8em;" href="pages/login/redirect.php" class="waves-effect waves-light btn-large indigo accent-2 animateblock">
+                    <i class="material-icons left">perm_identity</i>
+                    Login
+                </a>
+                <br />
+                <br />
+        </div>
+
+
+    <!--_______________________________________END OF CONTENT_______________________________________-->
+
+
+    <!--_______________________________________FOOTER_______________________________________-->
+
+
+        <footer class="page-footer grey darken-4" style="font-family: Raleway;">
+            <div class="grey darken-4">
+
+                     <div class="row">
+                        <div class="col m3 s12 offset-s2 offset-m1">
+                            <img class="responsive-img" src="images/LogoLMS.png" style="top: 1em; position: relative;" alt="Logo">
+                        </div>
+                        <div class="col m5 s12">
+                            <h5 class="white-text">SKSC Learning Management System</h5>
+                            <p class="grey-text text-lighten-4">
+                                SKSC is optimized for learning. Tutorials, references, and
+                                examples are constantly reviewed to avoid errors, but we cannot
+                                warrant full correctness of all content. While using this site,
+                                you agree to our terms of use.
+                            </p>
+                            <br />
+                            <br />
+                            <a href="index.html"><img class="icon" src="images/LogoLMS.png" style="height: 60px; width: 60px;" alt="Logo"></a>
+                            <a href="http://www.ucd.ie/" target="_blank"><img class="icon" src="images/LogoUCD.png" style="height: 55px; width: 45px;" alt="logoUCD"></a>
+                        </div>
+                        <div class="col m2 s12 offset-m1">
+                            <h6 class="white-text">Visit Us</h6>
+                            <ul>
+                                <li><a class="grey-text text-lighten-3 icon" target="_blank" href="https://www.facebook.com/universitycollegedublin">
+                                    <img style="height: 57px; width: 50px;" src="images/fb.png" alt="fb"></a>
+                                </li>
+                                <li><a class="grey-text text-lighten-3 icon" target="_blank" href="https://twitter.com/ucddublin">
+                                    <img style="height: 57px; width: 50px;" src="images/twitter.png" alt="twitter"></a>
+                                </li>
+                                <li><a class="grey-text text-lighten-3 icon" target="_blank" href="https://plus.google.com/+universitycollegedublin/about">
+                                    <img style="height: 57px; width: 50px;" src="images/gplus.png" alt="GPlus"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+
+        <!--______________________________________________VALIDATORS______________________________________________-->
+                        <p>
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img style="width:88px;height:31px; position: relative; left: 1em; top: 1em;"
+                                     src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                     alt="Valid CSS!">
+                            </a>
+                            <a href="http://validator.w3.org/check?uri=referer"><img
+                                    src="http://www.w3.org/Icons/valid-xhtml10"
+                                    alt="Valid XHTML 1.0!" style="width:88px; height:31px; position: relative; left: 1em; top: 1em;" />
+                            </a>
+                        </p>
+        <!--____________________________________END OF THE VALIDATORS_________________________________________-->
+
+                <hr style="display: block; height: 1px; border: 0; border-top: 1px solid #424242; padding: 0; margin-left: 15px; margin-right: 15px;"/>
+
+                <div class="footer-copyright grey darken-4 grey-text text-darken-2 ">
+                    <div class="container">
+                        Copyright © SKSC 2015 . All Rights Reserved.
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+
+
+    <!--______________________________________________END OF FOOTER______________________________________________-->
+
+
+
+
+    <!--________________________________________________________________________________________________-->
+
+          <!--Import jQuery and materialize.js-->
+                <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+                <script type="text/javascript" src="js/materialize.min.js"></script>
+
+         <!--Import jquery.scrollAnimate.js-->
+                <script type="text/javascript" src="js/jquery.scrollAnimate.js"></script>
+                <script type="text/javascript">
+
+                    $('.dropdown-button').dropdown({
+                        inDuration: 300,
+                        outDuration: 225,
+                        constrain_width: true, // Does not change width of dropdown to that of the activator
+                        hover: true, // Activate on hover
+                        gutter: 0, // Spacing from edge
+                        belowOrigin: false // Displays dropdown below the button
+                    });
+
+
+
+                    $( document ).ready(function() {
+                        $(".button-collapse").sideNav();
+                    });
+
+
+
+    //SLIDESHOW script below
+                    $(document).ready(function(){
+                        $('.slider').slider({full_width: true});
+                    });
+
+
+
+                </script>
+    <!--This Content is used to animate items when scrolling. Associated with jquery.scrollAnimate.js-->
+    <!--______________________________________________BEGIN OF ANIMATE______________________________________________-->
+    <script>
+        $(document).ready(function() {
+                $('.navbaropacity').scrollAnimate({
+                    startScroll: 100,
+                    endScroll: 300,
+                    cssProperty: 'opacity',
+                    before: 1,
+                    after:.9
+                });
+
+
+        });
+        jQuery(document).ready(function($) {
+            $(window).scroll(function() {
+                var scroll 		= $(this).scrollTop();
+
+
+                if (scroll > 150) {
+                    $('.navbarlogo').addClass('second-state');
+
+
+                } else {
+                    $('.navbarlogo').removeClass('second-state');
+
+
+                }
+            });
+
+            $(window).scroll(function() {
+                var scroll1 		= $(this).scrollTop();
+
+
+                if (scroll1 > 150) {
+
+                    $('#navbarlogo1').addClass('second-state');
+
+                } else {
+
+                    $('#navbarlogo1').removeClass('second-state');
+
+                }
+            });
+
+        });
+    </script>
+
+    <!--______________________________________________END OF ANIMATE______________________________________________-->
+
+    <!--______________________________________________BEGIN OF BACK TO TOP JAVASCRIPT______________________________________________-->
+    <script>
+        $(document).ready(function() {
+            var offset=250, // At what pixels show Back to Top Button
+            scrollDuration=300; // Duration of scrolling to top
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > offset)
+                    {
+                        $('.top').fadeIn(500); // Time(in Milliseconds) of appearing of the Button when scrolling down.
+                    }
+                else
+                    {
+                        $('.top').fadeOut(500); // Time(in Milliseconds) of disappearing of Button when scrolling up.
+                    }
+            });
+
+        // Smooth animation when scrolling
+            $('.top').click(function(event) {
+                event.preventDefault();
+            $('html, body').animate({
+                scrollTop: 0}, scrollDuration);
+            })
+        });
+    </script>
+    <!--______________________________________________END OF BACK TO TOP JAVASCRIPT______________________________________________-->
+
+    <!--__________________________________BEGIN OF ANIMATING WITH SCROLL(CONTENT ANIMATOR)_______________________________________-->
+    <script type="text/javascript">
+          $(function(){
+              var $elems = $('.animateblock');
+              var winheight = $(window).height();
+              var fullheight = $(document).height();
+
+              $(window).scroll(function(){
+                  animate_elems();
+              });
+
+              function animate_elems() {
+                  wintop = $(window).scrollTop(); // calculate distance from top of window
+
+                  // loop through each item to check when it animates
+                  $elems.each(function(){
+                      $elm = $(this);
+
+                      if($elm.hasClass('animated')) { return true; } // if already animated skip to the next item
+
+                      topcoords = $elm.offset().top; // element's distance from top of page in pixels
+
+                      if(wintop > (topcoords - (winheight*.75))) {
+                          // animate when top of the window is 3/4 above the element
+                          $elm.addClass('animated');
+                      }
+                  });
+              } // end animate_elems()
+          });
+    </script>
+    <!--_____________________________________END OF ANIMATING WITH SCROLL(CONTENT ANIMATOR)______________________________________-->
+<script>
+
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //   .d8888b.  888    d8P   .d8888b.   .d8888b.                 888      888b     d888  .d8888b.
+    //  d88P  Y88b 888   d8P   d88P  Y88b d88P  Y88b                888      8888b   d8888 d88P  Y88b
+    //  Y88b.      888  d8P    Y88b.      888    888                888      88888b.d88888 Y88b.
+    //   "Y888b.   888d88K      "Y888b.   888                       888      888Y88888P888  "Y888b.
+    //      "Y88b. 8888888b        "Y88b. 888                       888      888 Y888P 888     "Y88b.
+    //        "888 888  Y88b         "888 888    888                888      888  Y8P  888       "888
+    //  Y88b  d88P 888   Y88b  Y88b  d88P Y88b  d88P                888      888   "   888 Y88b  d88P
+    //   "Y8888P"  888    Y88b  "Y8888P"   "Y8888P"                 88888888 888       888  "Y8888P"
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //   .d8888b.        d8888 888b     d888 8888888 888b    888 88888888888 888    888        d8888
+    //  d88P  Y88b      d88888 8888b   d8888   888   8888b   888     888     888    888       d88888
+    //  Y88b.          d88P888 88888b.d88888   888   88888b  888     888     888    888      d88P888
+    //   "Y888b.      d88P 888 888Y88888P888   888   888Y88b 888     888     8888888888     d88P 888
+    //      "Y88b.   d88P  888 888 Y888P 888   888   888 Y88b888     888     888    888    d88P  888
+    //        "888  d88P   888 888  Y8P  888   888   888  Y88888     888     888    888   d88P   888
+    //  Y88b  d88P d8888888888 888   "   888   888   888   Y8888     888     888    888  d8888888888
+    //   "Y8888P" d88P     888 888       888 8888888 888    Y888     888     888    888 d88P     888
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //  888    d8P         d8888 888             d8888 888b    888        d8888
+    //  888   d8P         d88888 888            d88888 8888b   888       d88888
+    //  888  d8P         d88P888 888           d88P888 88888b  888      d88P888
+    //  888d88K         d88P 888 888          d88P 888 888Y88b 888     d88P 888
+    //  8888888b       d88P  888 888         d88P  888 888 Y88b888    d88P  888
+    //  888  Y88b     d88P   888 888        d88P   888 888  Y88888   d88P   888
+    //  888   Y88b   d8888888888 888       d8888888888 888   Y8888  d8888888888
+    //  888    Y88b d88P     888 88888888 d88P     888 888    Y888 d88P     888
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //   .d8888b.        d8888 888b    888 8888888b.  888     888 888b    888
+    //  d88P  Y88b      d88888 8888b   888 888  "Y88b 888     888 8888b   888
+    //  Y88b.          d88P888 88888b  888 888    888 888     888 88888b  888
+    //   "Y888b.      d88P 888 888Y88b 888 888    888 888     888 888Y88b 888
+    //      "Y88b.   d88P  888 888 Y88b888 888    888 888     888 888 Y88b888
+    //        "888  d88P   888 888  Y88888 888    888 888     888 888  Y88888
+    //  Y88b  d88P d8888888888 888   Y8888 888  .d88P Y88b. .d88P 888   Y8888
+    //   "Y8888P" d88P     888 888    Y888 8888888P"   "Y88888P"  888    Y888
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //   .d8888b.  888    888 888     888 888             d8888 888b    888
+    //  d88P  Y88b 888    888 888     888 888            d88888 8888b   888
+    //  888    888 888    888 888     888 888           d88P888 88888b  888
+    //  888        8888888888 888     888 888          d88P 888 888Y88b 888
+    //  888        888    888 888     888 888         d88P  888 888 Y88b888
+    //  888    888 888    888 888     888 888        d88P   888 888  Y88888
+    //  Y88b  d88P 888    888 Y88b. .d88P 888       d8888888888 888   Y8888
+    //   "Y8888P"  888    888  "Y88888P"  88888888 d88P     888 888    Y888
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+
+
+
+
+</script>
+
+
+    <!--__________________________________END OF THE PAGE____________________________________________-->
+</body>
+</html>
+        

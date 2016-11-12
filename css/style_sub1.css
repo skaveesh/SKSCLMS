@@ -1,0 +1,39 @@
+/*These Styles are belong to the "BACKtoTOP" Button*/
+        .top{
+
+            bottom: 2.5em;
+            display: none;
+            opacity:0.4;
+            padding: 1.5em;
+            position: fixed;
+            right: 1.5em;
+            text-decoration: none;
+
+        }
+        .top:hover{
+            opacity:.8;
+            transition:1s;
+        }
+/*END-These Styles are belong to the "BACKtoTOP" Button*/
+
+
+/*These Styles are belong to "Visit Us" on the footer*/
+        .icon{
+            filter: grayscale(100%) brightness(110%) ;
+            -webkit-filter: grayscale(100%) brightness(110%) ;
+
+        }
+        .icon:hover{
+            filter:  grayscale(0%);
+            -webkit-filter: grayscale(0%);
+
+        }
+
+
+        @media only screen and (max-width: 768px) {
+            .icon{
+                filter:  grayscale(0%);
+                -webkit-filter: grayscale(0%);
+            }
+        }
+/*END-These Styles are belong to "Visit Us" on the footer*/
